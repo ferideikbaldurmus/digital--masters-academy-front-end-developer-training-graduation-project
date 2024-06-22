@@ -1,6 +1,4 @@
-$(function() {
-    // Navbarı yükleme işlemi
-    $.get("navbar.html", function(data) {
-        $("#navbar").html(data);
-    });
-});
+/* Navbar, Jquery */
+$(document).ready(function () {
+    $("#navbar").load("navbar.html");
+  });
