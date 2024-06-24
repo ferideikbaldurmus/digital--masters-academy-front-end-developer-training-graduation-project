@@ -1,7 +1,17 @@
-/* Navbar, Jquery */
+// Navbar, Jquery 
 $(document).ready(function () {
     $("#navbar").load("navbar.html");
   });
+
+  /*  CARD 
+  $(document).ready(function () {
+    $("#card").load("card.html");
+  });
+*/
+
+$(document).ready(function () {
+  $("#footer").load("footer.html");
+});
 
 // SLİDER 
 (function($) { "use strict";
@@ -64,7 +74,7 @@ $(document).ready(function() {
  });  
 
 
-//Switch dark/light
+// Switch dark/light
 
 $("#switch").on('click', function () {
   if ($("body").hasClass("light")) {
