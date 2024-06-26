@@ -3,16 +3,6 @@ $(document).ready(function () {
     $("#navbar").load("navbar.html");
   });
 
-  /*  CARD 
-  $(document).ready(function () {
-    $("#card").load("card.html");
-  });
-*/
-
-$(document).ready(function () {
-  $("#footer").load("footer.html");
-});
-
 // SLİDER 
 (function($) { "use strict";
 //Page cursors
@@ -90,3 +80,7 @@ $("#switch").on('click', function () {
 
 })(jQuery); 
 
+// Footer, Jquery 
+$(document).ready(function () {
+  $("#footer").load("footer.html");
+});
