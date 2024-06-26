@@ -9,8 +9,7 @@
      overflow: auto;
  }
  
- /* #Cursor
- ================================================== */
+ /* #Cursor */
  .cursor,
  .cursor2,
  .cursor3{
@@ -499,3 +498,35 @@
      border-radius: 50%;
      box-shadow: 0 0 0 2px rgba(255,255,255,0);
  }
+
+ /* Footer */
+ .footer-bg {
+    background-color: black;
+    color: white;
+    padding: px 0;
+}
+
+.footer-bg .nav-link {
+    color: white;
+}
+
+.footer-bg .nav-link:hover {
+    color: gray;
+}
+
+/* Card */
+.custom-card {
+    margin-top: 20px; 
+}
+
+.custom-card {
+    margin-bottom: 20px; 
+}
+
+.custom-card {
+    margin-left: 20px; 
+}
+
+.custom-card {
+    margin-right: 20px; 
+}
