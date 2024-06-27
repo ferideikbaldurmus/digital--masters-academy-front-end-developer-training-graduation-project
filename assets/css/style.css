@@ -473,6 +473,10 @@
  body.light .case-study-wrapper .case-study-name.active a {
      color: #000;
  }
+
+.slider-bg .nav-link:hover {
+    color: gray;
+}
  /* #Link to page
  ================================================== */
  
@@ -516,17 +520,17 @@
 
 /* Card */
 .custom-card {
-    margin-top: 20px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
+ 
+/* Card, asteroids.html */
 .custom-card {
-    margin-bottom: 20px; 
-}
+    max-width: 15px;
+    margin-left: 25px;
+    margin-right: 20px;
 
-.custom-card {
-    margin-left: 20px; 
-}
-
-.custom-card {
-    margin-right: 20px; 
 }
