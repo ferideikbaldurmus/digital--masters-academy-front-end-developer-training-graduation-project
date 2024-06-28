@@ -85,25 +85,3 @@ $(document).ready(function () {
   $("#footer").load("footer.html");
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const stars1 = document.getElementById('stars');
-  const stars2 = document.getElementById('stars2');
-  const stars3 = document.getElementById('stars3');
-
-  function createStars(container, starCount) {
-      for (let i = 0; i < starCount; i++) {
-          const star = document.createElement('div');
-          star.classList.add('star');
-          star.style.left = `${Math.random() * 100}%`;
-          star.style.top = `${Math.random() * 100}%`;
-          star.style.width = `${Math.random() * 3}px`;
-          star.style.height = star.style.width;
-          star.style.backgroundColor = '#fff';
-          container.appendChild(star);
-      }
-  }
-
-  createStars(stars1, 300);
-  createStars(stars2, 300);
-  createStars(stars3, 300);
-});

@@ -49,8 +49,7 @@
      box-shadow: 0 0 0 rgba(255, 255, 255, 0.2);
  }
  
- /* #Slider
- ================================================== */
+ /* #Slider */
  
  .section{
      position: relative;
@@ -60,8 +59,7 @@
      height: 100vh;
  }
  
- /* Case Study Showcase
- ================================================== */
+ /* Case Study Showcase */
  
  .case-study-wrapper {
      position: absolute;
@@ -349,8 +347,7 @@
      left: 20%;
  }
  
- /* #Media
- ================================================== */
+ /* #Media */
  
  @media (max-width: 991px) { 
      .case-study-images li .hero-number-back{
@@ -367,7 +364,7 @@
          font-size: 32vw;
      } 
  }
-/*  
+ 
  @media (max-width: 580px) {	
      .case-study-images li:nth-child(1) .img-hero-background span,
      .case-study-images li:nth-child(2) .img-hero-background span,
@@ -392,7 +389,8 @@
      .case-study-images li:nth-child(4) .img-hero-background span:nth-child(4){
          display: none;
      }
- } */
+ } 
+ 
  .switch-wrap {
      position: fixed;
      bottom: 30px;
@@ -477,8 +475,7 @@
 .slider-bg .nav-link:hover {
     color: gray;
 }
- /* #Link to page
- ================================================== */
+ /* #Link to page */
  
  .link-to-portfolio {
      position: fixed;
@@ -557,38 +554,24 @@ body, html {
     background: #000;
 }
 
-#stars, #stars2, #stars3 {
-    position: absolute;
+/* iframe, style */
+.iframe-container {
+    position: relative;
     width: 100%;
-    height: 100%;
+    max-width: 1440px; /* Maksimum genişlik sınırı */
+    max-height: 450px; /* Maksimum yükseklik sınırı */
+    aspect-ratio: 16/9; /* 16:9 oranı */
+    margin: 0 auto; /* Ortaya hizalamak için */
+    overflow: hidden;
+}
+
+/* iframe, style */
+.iframe-container iframe {
+    position: absolute;
     top: 0;
     left: 0;
-    background: transparent;
-    pointer-events: none;
-    z-index: -1;
-}
-/*
-#stars {
-    animation: animStar 50s linear infinite;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
-#stars2 {
-    animation: animStar 100s linear infinite;
-}
-
-#stars3 {
-    animation: animStar 150s linear infinite;
-}
-
-@keyframes animStar {
-    from {transform: translateY(0);}
-    to {transform: translateY(-1000px);}
-}
-
-.content {
-    position: relative;
-    z-index: 1;
-    color: white;
-    padding: 20px;
-}
-*/
