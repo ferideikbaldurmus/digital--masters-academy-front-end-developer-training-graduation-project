@@ -627,13 +627,5 @@ body {
 }
 
 
-.card-img-scale {
-    transition: transform 0.3s ease-in-out;
-}
-
-.card-img-scale:hover {
-    transform: scale(1.1);
-}
-
 
  
