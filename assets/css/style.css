@@ -558,10 +558,10 @@ body, html {
 .iframe-container {
     position: relative;
     width: 100%;
-    max-width: 1440px; /* Maksimum genişlik sınırı */
-    max-height: 450px; /* Maksimum yükseklik sınırı */
-    aspect-ratio: 16/9; /* 16:9 oranı */
-    margin: 0 auto; /* Ortaya hizalamak için */
+    max-width: 1440px; 
+    max-height: 450px; 
+    aspect-ratio: 16/9; 
+    margin: 0 auto; 
     overflow: hidden;
 }
 
@@ -619,3 +619,5 @@ body {
     
   }
   /* SPACE GALLERY END */
+
+ 
