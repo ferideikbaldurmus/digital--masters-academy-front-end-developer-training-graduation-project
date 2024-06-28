@@ -1,13 +1,13 @@
 /* SLİDER */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese');
-
+/* 
  body{
      width: 100%;
      height: 100vh;
      background: #1f2029;
      overflow: auto;
- }
+ } */
  
  /* #Cursor */
  .cursor,
@@ -546,13 +546,13 @@
     background-color: black;
 }
 
-body, html {
+/* body, html {
     margin: 0;
     padding: 0;
     height: 100%;
 
     background: #000;
-}
+} */
 
 /* iframe, style */
 .iframe-container {
@@ -602,9 +602,7 @@ body {
   }
   .child-container img:hover {
     box-shadow: 4px 4px 25px black, inset 2px 2px 2px 10px rgb(0, 0, 20);
-   
   }
-  
   .greeting {
     text-align: center;
     color: lightblue;
@@ -619,5 +617,23 @@ body {
     
   }
   /* SPACE GALLERY END */
+
+  
+.dropdown-item:focus, .dropdown-item:active {
+    background-color: transparent !important;
+    color: inherit;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.card-img-scale {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img-scale:hover {
+    transform: scale(1.1);
+}
+
 
  
