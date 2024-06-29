@@ -8,7 +8,7 @@ $(document).ready(function () {
 //Page cursors
 
   document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
-      t.style.left = n.clientX + "px", 
+  t.style.left = n.clientX + "px", 
   t.style.top = n.clientY + "px", 
   e.style.left = n.clientX + "px", 
   e.style.top = n.clientY + "px", 
@@ -22,9 +22,8 @@ $(document).ready(function () {
       e.classList.add("hover"), i.classList.add("hover")
   }
   function s(t) {
-      e.classList.remove("hover"), i.classList.remove("hover")
+  e.classList.remove("hover"), i.classList.remove("hover")
   }
-  s();
   for (var r = document.querySelectorAll(".hover-target"), a = r.length - 1; a >= 0; a--) {
       o(r[a])
   }
@@ -76,8 +75,6 @@ $("#switch").on('click', function () {
     $("#switch").addClass("switched");
   }
 }); 	
-
-
 })(jQuery); 
 
 // Footer, Jquery 
