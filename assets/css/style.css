@@ -499,6 +499,13 @@
      border-radius: 50%;
      box-shadow: 0 0 0 2px rgba(255,255,255,0);
  }
+ 
+/* Navbar */
+ .navbar-nav .nav-link {
+    display: inline-block; 
+    padding: 10px 15px; 
+    white-space: nowrap; 
+}
 
  /* Footer */
  .footer-bg {
