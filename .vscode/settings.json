@@ -2,5 +2,6 @@
     "discord.enabled": true,
     "discord.removeDetails": true,
     "discord.removeLowerDetails": true,
-    "discord.swapBigAndSmallImage": false
+    "discord.swapBigAndSmallImage": false,
+    "liveServer.settings.port": 5501
 }
